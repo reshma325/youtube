@@ -4,8 +4,10 @@ import menu from '../Images/menu.png'
 import logo from '../Images/logo.jpeg'
 import create from '../Images/Create.png'
 import notification from '../Images/Notification.png'
-import profile from '../Images/profile.png'
+import profile from '../Images/profile.jpeg'
+import { useNavigate } from 'react-router'
 const Header = () => {
+  const router=useNavigate()
   return (
     <div id='header_screen'>
       <div id='header_main'>
@@ -40,7 +42,7 @@ const Header = () => {
           <img src={notification} alt=''/>
           </div>
           <div  id='hmain_r_r'>
-          <img src={profile} alt=''/>
+          <img onClick={()=>router('/signin')} src={profile} alt=''/>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@
 }
 
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 14px;
 }
 
@@ -19,20 +19,19 @@
     height: 56px;
 
 
-} */
+}
 
 #home_main {
-    width: 1188.9px;
+    width: 1408.9px;
     height: 4000px;
     padding-top: 57px;
-
     padding-left: 220px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     background-color: rgb(15, 15, 15);
 }
 
 #home_subnav {
-    width: 1107px;
+    width: 1157px;
     height: 56px;
     /* border: 1px solid rgb(0, 157, 255); */
     position: sticky;

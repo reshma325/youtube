@@ -31,95 +31,33 @@
     justify-content: center;
 }
 #video_primary{
-    width: 640px;
+    width: 853.3px;
     height: 2195px;
     margin-left: 24px;
     padding: 24px 24px 0px 0px;
     border: 1px solid red;
     /* margin: auto; */
 }
+
 #playable{
     width: 100%;
-    height: 360px;
+    height: 480px;
     border: 1px dotted rgb(0, 110, 255);
 }
-#playable_control_main{
-    width: 590px;
-    height: 48px;
-    padding-top: 3px;
-    /* border: 1px solid white; */
-    position: relative;
-    top:309px;
-    left: 12px;
-    z-index: 59;
-
-bottom: 0;
+#playable>iframe{
+ width: 100%;
+ height: 100%;
 }
-#playable_played{
-    width: 590px;
-
-    height: 4px;  
-      background-color: rgba(255, 255, 255, 0.1); 
- 
-     border-radius: 15px; 
-    cursor: pointer;
-  
-}
-#playable_willplay{
-    background-color: rgb(247, 250, 247); 
-   width: 220px;
-    height: 4px;
-    border-radius: 15px; 
-    cursor: pointer;
-
-}
-#playable_controls{
+#below{
     width: 100%;
-    height: 42px;
-    /* border: 1px solid grey; */
-    display: flex;
-    justify-content: space-between;
+    height: 3227px;
+    border: 1px solid greenyellow;
 }
-#control_left{
-    width: 280px;
-    height: 42px;
-    /* border: 1px dotted aqua ; */
-    display: flex;
-}
-#play{
-    width: 48px;
-    height: 42px;
-    padding: 0px 2px;
-    /* border: 1px dashed gold; */
-}
-#play>img{
-width: 15px;
-height: 19px;
-margin: 10px 0px 0px 0px;
-cursor: pointer;
-}
-#playNext,#volume{
-    width: 47px;
-    height: 42px;
-    /* padding: 0px 2px; */
-    /* border: 1px dashed gold; */
-}#playNext>img{
-    width: 24px;
-    height: 24px;
-    margin: 7px 0px 0px 0px;
-    cursor: pointer;
-    }
-    #volume>img{
-        width: 20px;
-        height: 20px;
-        margin: 8.5px 0px 0px 0px;
-        /* border: 1px solid; */
-        cursor: pointer;
-    }
-#control_right{
-    width: 336px;
-    height: 42px;
-    /* border: 1px dotted aqua ; */
+#channel_details{
+    width: 852.3px;
+    height: 195px;
+    margin: 12px 0px 24px 0px;
+    border: 1px solid red;
 }
 
 #video_secondary{

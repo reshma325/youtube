@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router'
 
 
 const Homepage = () => {
-  const router=useNavigate();
+  const router = useNavigate();
   const [content, setContent] = useState([
     {
       thumbnail: "https://i.ytimg.com/vi/AkShamwqkUc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqKjmxjjG9m6BwAkzlc8aMEmggyQ",
@@ -190,49 +190,49 @@ const Homepage = () => {
 
         </div>
         <div id="content_main">{content.length && content.map((con) => (
-            <div onClick={()=>router('/video')} id="content_main_">
-              <div id="content_thumbnail_main">
-                <div id="content_thumbnail">
-                  <img src={con.thumbnail} alt="" />
-                  </div>
-                <div id="content_duration">
-                  {con.duration}
+          <div onClick={() => router('/video')} id="content_main_">
+            <div id="content_thumbnail_main">
+              <div id="content_thumbnail">
+                <img src={con.thumbnail} alt="" />
+              </div>
+              <div id="content_duration">
+                {con.duration}
+              </div>
+            </div>
+            <div id="content_details_main">
+              <div id="content_channel_pp">
+                <img src={con.channel_pp} alt="" />
+              </div>
+              <div id="content_details">
+                <div id="content_video_name">
+                  {con.video_name}
+                </div>
+                <div id="content_channel_name">
+                  {con.channel_name}
+                </div>
+                <div id="content_views">
+                  {con.views}
                 </div>
               </div>
-              <div id="content_details_main">
-                <div id="content_channel_pp">
-                  <img src={con.channel_pp} alt="" />
-                  </div>
-                <div id="content_details">
-                  <div id="content_video_name">
-                    {con.video_name}
-                  </div>
-                  <div id="content_channel_name">
-                    {con.channel_name}
-                    </div>
-                  <div id="content_views">
-                    {con.views}
-                    </div>
-                </div>
-                <div id="content_details_2_main">
-                  <div id="content_details_2">
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                    </div>
+              <div id="content_details_2_main">
+                <div id="content_details_2">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
                 </div>
               </div>
             </div>
-          ))}
+          </div>
+        ))}
         </div>
-        
+
         <div id="shorts-content-bg">
-                  <div id="shorts-head">
-                     <div id="sh_text_main">
-                        <div id="sh_logo"><img src={ytShorts} alt="" /></div>
-                        <p id="sh_text">Shorts</p>
-                     </div>
-                     <div id="sh_close"><img src={close_} alt="" /></div>
-                  </div>
-                  </div>
+          <div id="shorts-head">
+            <div id="sh_text_main">
+              <div id="sh_logo"><img src={ytShorts} alt="" /></div>
+              <p id="sh_text">Shorts</p>
+            </div>
+            <div id="sh_close"><img src={close_} alt="" /></div>
+          </div>
+        </div>
 
 
 
@@ -243,21 +243,21 @@ const Homepage = () => {
 
               <div id="short_thumbnail">
                 <img src={short.thumbnail} alt="" />
-                </div>
+              </div>
 
               <div id="short_detail_main">
                 <div id="short_detail">
                   <div id="short_video_name">
                     {short.video_name}
-                    </div>
+                  </div>
                   <div id="short_views">
                     {short.views}
-                    </div>
+                  </div>
                 </div>
                 <div id="short_detail_2_main">
                   <div id="short_detail_2">
                     <i class="fa-solid fa-ellipsis-vertical">
-                      </i></div>
+                    </i></div>
                 </div>
               </div>
             </div>

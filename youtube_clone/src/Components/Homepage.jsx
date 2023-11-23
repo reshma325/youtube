@@ -11,12 +11,12 @@ const Homepage = () => {
   const router = useNavigate();
   const [content, setContent] = useState([
     {
-      thumbnail: "https://i.ytimg.com/vi/AkShamwqkUc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqKjmxjjG9m6BwAkzlc8aMEmggyQ",
+      thumbnail: "https://i.ytimg.com/vi/5M_Z0ARqol8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD-E9RJYUtjCosCp-1ktdFHsT59A",
       channel_pp: "https://yt3.ggpht.com/ytc/APkrFKayJU7KdMw6rQtw4v1E8sbXAkMAepaFnRQ1CfBH=s88-c-k-c0x00ffffff-no-rj",
-      video_name: "When ICC & BCCI went to War | The Politics, The Scandal, The Controversy that Shaped Cricket | DRS",
-      channel_name: "Cricket Raaz English",
-      views: "6.2Lakh views . 2 months ago",
-      duration: "10:50"
+      video_name: "Uncle Roger AMAZED by PERFECT EGG FRIED RICE (Chef Wang Gang)",
+      channel_name: "mrnigelng",
+      views: "1.5 crore views . 2 years ago",
+      duration: "12:33"
     },
     {
       thumbnail: "https://i.ytimg.com/vi/vtmvlMHcKPY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBU1W9beKwWNd2yc8ILdY4AAA57CQ",

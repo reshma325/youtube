@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Components/Header.css"
 import menu from '../Images/menu.png'
-import logo from '../Images/logo.jpeg'
+import logo from '../Images/logo.png'
 import create from '../Images/Create.png'
 import notification from '../Images/Notification.png'
 import profile from '../Images/profile.jpeg'
@@ -17,7 +17,7 @@ const Header = () => {
 
           </div>
           <div id='hmain_l_r'>
-            <img src={logo} alt='' />
+            <img src={logo} alt='' onClick={()=>router('/')} />
           </div>
         </div>
         <div id='hmain_m'>

@@ -6,7 +6,8 @@ import { useNavigate } from 'react-router'
 const Register = () => {
     const router = useNavigate()
     return (
-        <div id='signup_main'>
+        <div id='signup_screen'>
+     <div id='signup_main'>
             <div id='signup_box'>
                 <div id='g_logo'>
                     <img src={glogo} alt='' />
@@ -96,6 +97,8 @@ const Register = () => {
 
 
         </div>
+        </div>
+   
     )
 }
 
